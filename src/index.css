@@ -1,0 +1,36 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Consolas", sans-serif;
+}
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  background-color: #151515;
+  color: #fff;
+  padding: 40px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2rem;
+  border: 1px solid pink;
+  gap: 2rem;
+  max-width: 700px;
+  margin-inline: auto;
+  height: 60rem;
+}
+.item {
+  border: 1px solid pink;
+  padding: 2rem;
+  text-align: center;
+  background-color: #242424;
+}
+.drop-box {
+  border: 1px solid pink;
+  height: 30rem;
+}
